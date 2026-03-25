@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const navigationData=[
   {
@@ -28,19 +28,26 @@ const navigationData=[
   }
 ]
 const Navbar = () => {
+    const [open,setOpen]=useState(false);
     return (
         <nav>
-<ul>
+{/* <ul>
     {
         navigationData.map(route=> <link key={route.id} route={route}></link>)
     }
-</ul>
+</ul> */}
 
-            {/* <ul className='flex'>
+            <ul className='flex'>
+                <span className='mr-3' onClick={()=>setOpen(!open)}>
+                    {open?"open":"closed"}
+                    
+                </span>
+                
                 {
+                    
                     navigationData.map(route=> <li className='mr-10'><a href="{route.path}">{route.name}</a></li>)
                 }
-            </ul> */}
+            </ul>
 
             {/* <ul className='flex'>
                 <li className='mr-10'><a href="">Home</a></li>

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": "$29/month",
+    "information": "Perfect for beginners who want access to essential gym equipment.",
+    "features": [
+      "Access to cardio machines",
+      "Access to weight training area",
+      "Locker room access",
+      "1 free fitness assessment"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": "$49/month",
+    "information": "Ideal for regular gym-goers with added perks.",
+    "features": [
+      "All Basic Plan features",
+      "Unlimited group fitness classes",
+      "Free towel service",
+      "2 guest passes per month"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": "$79/month",
+    "information": "Designed for those who want full access and personalized support.",
+    "features": [
+      "All Standard Plan features",
+      "Personal trainer consultation (monthly)",
+      "Sauna and steam room access",
+      "Priority class booking"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Family Plan",
+    "price": "$129/month",
+    "information": "Great for families who want to stay fit together.",
+    "features": [
+      "Access for up to 4 family members",
+      "All Premium Plan features",
+      "Kids fitness programs",
+      "Discounts on merchandise"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Elite Plan",
+    "price": "$199/month",
+    "information": "Exclusive membership with luxury benefits and unlimited support.",
+    "features": [
+      "All Family Plan features",
+      "Unlimited personal training sessions",
+      "Nutrition and diet planning",
+      "VIP lounge access"
+    ]
+  }
+]
